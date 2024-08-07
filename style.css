@@ -1,0 +1,132 @@
+
+
+
+.navbar{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    box-shadow: 2px 2px 2px 2px gray;
+    gap: 500px
+
+    
+}
+body{
+    margin: none;
+    padding: none;
+}
+
+.logo img{
+    width: 50px;
+
+}
+.rightside ul {
+    display: flex;
+    gap: 50px;
+}
+.rightside ul li {
+    list-style: none;
+    text-decoration: none;
+}
+.rightside ul li a{
+    text-decoration: none;
+    color: blue;
+}
+.rightside ul li:hover{
+    background-color: black;
+
+
+}
+.banner {
+    width:100% ;
+    height: 250px;
+    margin-bottom: 20px;
+   
+
+}
+.banner>img{
+    width: 100%;
+    height: 250px;
+  
+}
+
+.main{
+    width: 100%;
+    height: 800px;
+    background-color: orange;
+}
+.cardssections{
+    width: 100%;
+        height: 500px;
+        
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px ;
+
+
+    
+}
+.items{
+    width: 30%;
+    height: 200px;
+    box-shadow: 2px 2px 2px 2px grey;
+    background-color: white;
+    border-radius: 20px solid black;
+    
+    
+    
+}
+.items>img{
+    width: 100%;
+    height: 100px;
+}
+.items>h2{font-family: monospace;
+    text-align: center;
+    position: relative;
+    
+
+}
+.items>button{
+    border-radius: 10px;
+    background-color: orange;
+    font-family: monospace;
+    width: 120px;
+    height: 30px;
+    border: none;
+  margin-left: 200px;
+}
+@media only screen and (max-width: 700px)  {
+   .navbar{ gap: 0.5px;
+    justify-content: flex-start;
+    
+   }
+   .banner{
+    height: 250px;
+    width: 550px;
+    
+   }
+   .cardssections{
+    flex-direction: row;
+   
+   }
+   .items>button{
+    display: none;
+  
+   }
+   .main{
+    height: 1000px;
+   }
+  }
+  .items:hover{
+    background-color: cadetblue;
+
+
+  }
+  .button:active{
+    background-color: aqua;
+  }
+
+
+
+
+
